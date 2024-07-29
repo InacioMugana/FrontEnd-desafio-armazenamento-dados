@@ -35,7 +35,7 @@ export const FormLogin = () => {
         <div className="relative mb-6">
           <input
             type="password"
-            placeholder="Senha"
+            placeholder="password"
             required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
