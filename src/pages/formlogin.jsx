@@ -47,7 +47,7 @@ export const FormLogin = () => {
         <div className="flex items-center justify-between mb-6">
           <label className="flex items-center text-slate-600">
             <input type="checkbox" className="mr-2" />
-            Lembre de mim
+            Remember me
           </label>
         </div>
 
@@ -60,12 +60,12 @@ export const FormLogin = () => {
 
         <div className="mt-6 text-center text-slate-600">
           <p>
-            Não tem uma conta?{" "}
+            Don't have an account?{" "}
             <Link
               to={"/signup"}
-              className="text-slate-600 hover:text-slate-800"
+              className="text-slate-600 hover:text-slate-800 underline"
             >
-              Registar
+              Register
             </Link>
           </p>
         </div>
