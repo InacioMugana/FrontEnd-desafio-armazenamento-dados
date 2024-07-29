@@ -4,15 +4,7 @@ const activeStyles = "text-black";
 const inactiveStyles = "text-white";
 export const NavBar = () => {
   return (
-    <nav className="space-x-2">
-      <NavLink
-        to={"/"}
-        className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`
-        }
-      >
-        HOME
-      </NavLink>
+    <nav className="space-x-6">
       <NavLink
         to={"/login"}
         className={({ isActive }) =>
